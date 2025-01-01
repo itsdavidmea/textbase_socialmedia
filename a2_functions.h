@@ -17,7 +17,7 @@ user_t *add_user(user_t *users, const char *username, const char *password);
 
 /*
    Function that searches if the user is available in the database 
-   Return a pointer to the user if found and NULL if not found.
+   Return a pointer to the user if found and NULL if not found. test
 */
 user_t *find_user(user_t *users, const char *username);
 
